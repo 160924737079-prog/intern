@@ -1,9 +1,9 @@
 import streamlit as st
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 
-load_dotenv()
+# load_dotenv()
 
 # 1. Page Configuration
 st.set_page_config(
